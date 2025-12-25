@@ -25,7 +25,6 @@
 
         public static List<string> WaterLifeList = new List<string>()
         {
-            "Animal_WildDuck_A",
             "Animal_Fish_A",
             "Animal_Fish_B",
             "Animal_Fish_L",
@@ -52,7 +51,6 @@
             "Animal_Insect_K",
             "Animal_Insect_O",
             "Animal_Insect_Z",
-            "Animal_Squirrel_A",
             "Animal_Insect_AA",
             "Animal_Insect_AB",
             "Animal_Insect_AH",
@@ -920,6 +918,26 @@
             "Item_Fruit_P"
         };
 
+        public static List<string> PlantList = new List<string>()
+        {
+            "Item_Plant_A",
+            "Item_Plant_B",
+            "Item_Plant_C",
+            "Item_Plant_E",
+            "Item_Plant_F",
+            "Item_Plant_G",
+            "Item_Plant_H",
+            "Item_Plant_I",
+            "Item_Plant_J",
+            "Item_Plant_L",
+            "Item_Plant_M",
+            "Item_Plant_O",
+            "Item_Plant_Q",
+            "Item_Plant_R",
+            "Item_Plant_S"
+
+        };
+
         public static Dictionary<string, int> ChestContents = new Dictionary<string, int>()
         {
             {"Weapon_Bow_200", 5},
@@ -1202,8 +1220,8 @@
             {"Obj_HeartUtuwa_A_01", 20},
             {"Obj_SageWill", 20},
             {"Obj_StaminaUtuwa_A_01", 8},
-            {"PutRupee", 50},
-            {"PutRupee_Blue", 50},
+            {"PutRupee", 34},
+            {"PutRupee_Blue", 46},
             {"PutRupee_Gold", 21},
             {"PutRupee_Purple", 30},
             {"PutRupee_Red", 50},
@@ -1237,7 +1255,7 @@
             {"SpObj_WindGenerator_Capsule_A_01", 4},
             {"Obj_ArrowBundle_A_01", 64},
             {"Obj_ArrowBundle_A_02", 46},
-            {"Obj_DungeonClearSeal", 155},
+            //{"Obj_DungeonClearSeal", 155},
             {"Weapon_Lsword_300", 3 },
             {"Weapon_Lsword_666", 3 },
             {"Item_Ganondorf", 2 }
@@ -2086,7 +2104,10 @@
 
         public static List<string> TreeList = new List<string>()
         {
-            "Enemy_Treant_Broadleaf"
+            "Enemy_Treant_Broadleaf",
+            "Enemy_Treant_D",
+            "Enemy_Treant_E",
+            "Enemy_Treant_Bee"
         };
 
         public static List<string> ZombieReplaceFromList = new List<string>()
@@ -2110,7 +2131,8 @@
             "Enemy_Drake_Electric",
             "Enemy_Drake_Fire",
             "Enemy_Drake_Ice",
-            "Enemy_Drake_Mix"
+            "Enemy_Drake_Mix",
+            "Enemy_Drake_Lord"
         };
 
         public static List<string> GleeokReplaceWithList = new List<string>()
@@ -2128,7 +2150,8 @@
             "Enemy_Giant_Bone_AllDay",
             "Enemy_Giant_Junior",
             "Enemy_Giant_Middle",
-            "Enemy_Giant_Senior"
+            "Enemy_Giant_Senior",
+            "Enemy_Giant_Gold"
         };
 
         public static List<string> HinoxReplaceWithList = new List<string>()
@@ -2150,7 +2173,8 @@
             "Enemy_Golem_Junior",
             "Enemy_Golem_Junior_KeyCrystal",
             "Enemy_Golem_Middle",
-            "Enemy_Golem_Senior"
+            "Enemy_Golem_Senior",
+            "Enemy_Golem_Gold"
         };
 
         public static List<string> TalusReplaceWithList = new List<string>()
@@ -2175,7 +2199,8 @@
             "Enemy_Lynel_Boss_Dark",
             "Enemy_Lynel_Boss_Senior",
             "Enemy_Lynel_Gold",
-            "Enemy_Lynel_Boss_Gold"
+            "Enemy_Lynel_Boss_Gold",
+            "Enemy_Lynel_Gold_R",
         };
 
         public static List<string> LynelReplaceWithList = new List<string>()
@@ -2193,7 +2218,8 @@
         {
             "Enemy_Mogurudo_Junior",
             "Enemy_Mogurudo_Middle",
-            "Enemy_Mogurudo_Senior"
+            "Enemy_Mogurudo_Senior",
+            "Enemy_Mogurudo_Gold"
         };
 
         public static List<string> FroxReplaceWithList = new List<string>()
@@ -2209,7 +2235,8 @@
             "Enemy_Zonau_BlockMaster_Junior",
             "Enemy_Zonau_BlockMaster_Junior_Beginning",
             "Enemy_Zonau_BlockMaster_Middle",
-            "Enemy_Zonau_BlockMaster_Senior"
+            "Enemy_Zonau_BlockMaster_Senior",
+            "Enemy_Zonau_BlockMaster_Gold"
         };
 
         public static List<string> FluxReplaceWithList = new List<string>()
@@ -2234,7 +2261,6 @@
         {
             "Enemy_Toby_Junior",
             "Enemy_Toby_Junior_Sky",
-            "Enemy_Toby_Junior_Terminal"
         };
 
         public static List<string> AerocudaReplaceWithList = new List<string>()
@@ -2307,6 +2333,7 @@
             BigAnimalLifeList,
             MushroomList,
             FruitList,
+            PlantList
         };
     }
 }
