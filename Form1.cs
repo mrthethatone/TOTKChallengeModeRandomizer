@@ -26,7 +26,7 @@ namespace TotkRandomizer
         private const int GREAT_SKY_ISLANDS_LIGHT_ORBS_COUNT = 4;
         private const int TOTAL_LIGHT_ORBS_COUNT = 164;
         private int currentChest = 0;
-        private int chestCount = 1531;
+        private int chestCount = 1535;
         private int currentProgress = 0;
         private static int maxProgress = 0;
 
@@ -700,7 +700,7 @@ namespace TotkRandomizer
         private bool IsSkyIslandChest(string mapFile)
         {
             string mapFileName = Path.GetFileNameWithoutExtension(mapFile);
-            return mapFileName.StartsWith("StartIsland") || mapFileName.StartsWith("Dungeon060") || mapFileName.StartsWith("Dungeon061") || mapFileName.StartsWith("Dungeon062") || mapFileName.StartsWith("Dungeon063");
+            return mapFileName.StartsWith("Dungeon060") || mapFileName.StartsWith("Dungeon061") || mapFileName.StartsWith("Dungeon062") || mapFileName.StartsWith("Dungeon063");
         }
 
 /*        private bool IsSkyIslandOrbChest(ulong hashValue)

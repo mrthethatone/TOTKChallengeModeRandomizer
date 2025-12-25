@@ -67,7 +67,7 @@ namespace TotkRandomizer
                 aa += a;
             }
 
-            //Console.WriteLine(aa);
+            Console.WriteLine(aa);
         }
     }
 }
