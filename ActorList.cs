@@ -24,26 +24,25 @@
 
         public static List<string> WaterLifeList = new List<string>()
         {
-            "Animal_WildDuck_A",
-            "Item_FishGet_A",
-            "Item_FishGet_AA",
-            "Item_FishGet_AC",
-            "Item_FishGet_B",
-            "Item_FishGet_C",
-            "Item_FishGet_D",
-            "Item_FishGet_E",
-            "Item_FishGet_F",
-            "Item_FishGet_G",
-            "Item_FishGet_H",
-            "Item_FishGet_I",
-            "Item_FishGet_J",
-            "Item_FishGet_L",
-            "Item_FishGet_M",
-            "Item_FishGet_X",
-            "Item_FishGet_Z",
+            "Animal_Fish_A",
+            "Animal_Fish_AA",
+            "Animal_Fish_AC",
+            "Animal_Fish_B",
+            "Animal_Fish_C",
+            "Animal_Fish_D",
+            "Animal_Fish_E",
+            "Animal_Fish_F",
+            "Animal_Fish_G",
+            "Animal_Fish_H",
+            "Animal_Fish_I",
+            "Animal_Fish_J",
+            "Animal_Fish_L",
+            "Animal_Fish_M",
+            "Animal_Fish_X",
+            "Animal_Fish_Z",
             "Animal_Insect_A",
             "Animal_Insect_AG",
-            "Animal_Insect_B",
+            "Animal_Insect_B"
         };
 
         public static List<string> SmallLandLifeList = new List<string>()
@@ -51,7 +50,6 @@
             "Animal_Insect_K",
             "Animal_Insect_O",
             "Animal_Insect_Z",
-            "Animal_Squirrel_A",
             "Animal_Insect_AA",
             "Animal_Insect_AB",
             "Animal_Insect_AH",
@@ -74,13 +72,6 @@
 
         public static List<string> AvianLifeList = new List<string>()
         {
-            "Animal_LittleBird_A",
-            "Animal_LittleBird_B",
-            "Animal_LittleBird_C",
-            "Animal_LittleBird_D",
-            "Animal_LittleBird_E",
-            "Animal_LittleBird_F",
-            "Animal_LittleBird_G",
             "Animal_Pigeon_A",
             "Animal_Pigeon_B",
             "Animal_Crow_A",
@@ -816,6 +807,51 @@
             "Weapon_Bow_106",
             "Weapon_Bow_107",
             "Weapon_Bow_166",
+            //CM Items
+            "Weapon_Bow_200",
+            "Weapon_Shield_200",
+            "Weapon_Sword_200",
+            "Weapon_Spear_200",
+            "Weapon_Lsword_200",
+            "Weapon_Lsword_016",
+            "Weapon_Lsword_017",
+            "Weapon_Lsword_018",
+            "Weapon_Sword_016",
+            "Weapon_Sword_017",
+            "Weapon_Sword_018",
+            "Weapon_Spear_016",
+            "Weapon_Spear_017",
+            "Weapon_Spear_018",
+            "Weapon_Lsword_300",
+            "Weapon_Lsword_666",
+            "Item_Enemy_900",
+            "Item_Enemy_900_R",
+            "Item_Enemy_901",
+            "Item_Enemy_901_R",
+            "Item_Enemy_902",
+            "Item_Enemy_902_R",
+            "Item_Enemy_903",
+            "Item_Enemy_903_R",
+            "Item_Enemy_904",
+            "Item_Enemy_904_R",
+            "Item_Enemy_905",
+            "Item_Enemy_905_R",
+            "Item_Enemy_906",
+            "Item_Enemy_906_R",
+            "Item_Enemy_906_RR",
+            "Item_Enemy_906_RRR",
+            "Item_Enemy_907",
+            "Item_Enemy_908",
+            "Item_Enemy_909",
+            "Item_Enemy_910",
+            "Item_Enemy_911",
+            "Item_Enemy_912",
+            "Item_Enemy_913",
+            "Item_Enemy_914",
+            "Item_Enemy_915",
+            "Item_Enemy_916",
+            "Item_Enemy_917",
+            "Item_Ganondorf"
         };
 
         public static List<string> BowList = new List<string>()
@@ -849,7 +885,8 @@
             "Weapon_Bow_105",
             "Weapon_Bow_106",
             "Weapon_Bow_107",
-            "Weapon_Bow_166"
+            "Weapon_Bow_166",
+            "Weapon_Bow_200"
         };
 
         public static List<string> FruitList = new List<string>()
@@ -872,6 +909,27 @@
             "Item_Fruit_L",
             "Item_Fruit_M",
             "Item_Fruit_P",
+        };
+
+        public static List<string> PlantList = new List<string>()
+        {
+            "Item_Plant_A",
+            "Item_Plant_B",
+            "Item_Plant_C",
+            "Item_Plant_E",
+            "Item_Plant_F",
+            "Item_Plant_G",
+            "Item_Plant_H",
+            "Item_Plant_I",
+            "Item_Plant_J",
+            "Item_Plant_J",
+            "Item_Plant_L",
+            "Item_Plant_M",
+            "Item_Plant_O",
+            "Item_Plant_Q",
+            "Item_Plant_R",
+            "Item_Plant_S",
+            "Item_Plant_A",
         };
 
         public static List<string> ShieldList = new List<string>()
@@ -909,6 +967,7 @@
             "Weapon_Shield_102",
             "Weapon_Shield_103",
             "Weapon_Shield_107",
+            "Weapon_Shield_200"
         };
 
         public static List<string> TwoHandedWeaponList = new List<string>()
@@ -984,6 +1043,17 @@
             "Weapon_Lsword_166",
             "Weapon_Lsword_168",
             "Weapon_Lsword_174",
+            //CM
+            "Weapon_Lsword_016",
+            "Weapon_Lsword_017",
+            "Weapon_Lsword_018",
+            "Weapon_Lsword_200",
+            "Weapon_Lsword_300",
+            "Weapon_Lsword_666",
+            "Weapon_Spear_016",
+            "Weapon_Spear_017",
+            "Weapon_Spear_018",
+            "Weapon_Spear_200"
         };
 
         public static List<string> WeaponList = new List<string>()
@@ -1102,6 +1172,21 @@
             "Weapon_Lsword_166",
             "Weapon_Lsword_168",
             "Weapon_Lsword_174",
+            //CM
+            "Weapon_Lsword_016",
+            "Weapon_Lsword_017",
+            "Weapon_Lsword_018",
+            "Weapon_Lsword_200",
+            "Weapon_Lsword_300",
+            "Weapon_Lsword_666",
+            "Weapon_Spear_016",
+            "Weapon_Spear_017",
+            "Weapon_Spear_018",
+            "Weapon_Spear_200",
+            "Weapon_Sword_016",
+            "Weapon_Sword_017",
+            "Weapon_Sword_018",
+            "Weapon_Sword_200"
         };
 
         public static List<string> OneHandedWeaponList = new List<string>()
@@ -1149,6 +1234,11 @@
             "Weapon_Sword_166",
             "Weapon_Sword_167",
             "Weapon_Sword_168",
+            //CM
+            "Weapon_Sword_016",
+            "Weapon_Sword_017",
+            "Weapon_Sword_018",
+            "Weapon_Sword_200"
         };
 
         public static List<string> SharpWeaponList = new List<string>()
@@ -1179,6 +1269,10 @@
             "Weapon_Sword_031",
             "Weapon_Sword_041",
             "Weapon_Sword_047",
+            "Weapon_Sword_016",
+            "Weapon_Sword_017",
+            "Weapon_Sword_018",
+            "Weapon_Sword_200"
         };
 
         public static List<string> PebblitList = new List<string>()
@@ -1422,14 +1516,14 @@
             "Enemy_Zonau_Robot_Middle",
             "Enemy_Zonau_Robot_Middle_Lookout",
             "Enemy_Zonau_Robot_Senior",
+            "Enemy_Zonau_Robot_Gold"
         };
 
         public static List<string> ZonaiReplaceWithList = new List<string>()
         {
             "Enemy_Zonau_Robot_Dark",
-            "Enemy_Zonau_Robot_Junior",
-            "Enemy_Zonau_Robot_Middle",
             "Enemy_Zonau_Robot_Senior",
+            "Enemy_Zonau_Robot_Gold"
         };
 
         public static List<string> HoriblinReplaceFromList = new List<string>()
@@ -1440,14 +1534,16 @@
             "Enemy_Horablin_Junior",
             "Enemy_Horablin_Middle",
             "Enemy_Horablin_Senior",
+            "Enemy_Horablin_Gold",
+            "Enemy_Horablin_Gold_R"
         };
 
         public static List<string> HoriblinReplaceWithList = new List<string>()
         {
             "Enemy_Horablin_Dark",
-            "Enemy_Horablin_Junior",
-            "Enemy_Horablin_Middle",
             "Enemy_Horablin_Senior",
+            "Enemy_Horablin_Gold",
+            "Enemy_Horablin_Gold_R"
         };
 
         public static List<string> BokoblinBossReplaceFromList = new List<string>()
@@ -1457,14 +1553,17 @@
             "Enemy_Bokoblin_Boss_Middle",
             "Enemy_Bokoblin_Boss_Senior",
             "Enemy_Bokoblin_Boss_Senior_NoOrder",
+            "Enemy_Bokoblin_Boss_Gold",
+            "Enemy_Bokoblin_Boss_Gold_R",
         };
 
         public static List<string> BokoblinBossReplaceWithList = new List<string>()
         {
             "Enemy_Bokoblin_Boss_Dark",
-            "Enemy_Bokoblin_Boss_Junior",
             "Enemy_Bokoblin_Boss_Middle",
             "Enemy_Bokoblin_Boss_Senior",
+            "Enemy_Bokoblin_Boss_Gold",
+            "Enemy_Bokoblin_Boss_Gold_R",
         };
 
         public static List<string> MoblinReplaceFromList = new List<string>()
@@ -1477,15 +1576,17 @@
             "Enemy_Moriblin_Junior_Lookout_Cliff",
             "Enemy_Moriblin_Middle",
             "Enemy_Moriblin_Senior",
+            "Enemy_Moriblin_Gold",
+            "Enemy_Moriblin_Gold_R"
         };
 
         public static List<string> MoblinReplaceWithList = new List<string>()
         {
-            "Enemy_Moriblin_Bone_Junior_AllDay",
             "Enemy_Moriblin_Dark",
-            "Enemy_Moriblin_Junior",
             "Enemy_Moriblin_Middle",
             "Enemy_Moriblin_Senior",
+            "Enemy_Moriblin_Gold",
+            "Enemy_Moriblin_Gold_R"
         };
 
         public static List<string> LizalfosReplaceFromList = new List<string>()
@@ -1506,18 +1607,20 @@
             "Enemy_Lizalfos_Junior",
             "Enemy_Lizalfos_Middle",
             "Enemy_Lizalfos_Senior",
+            "Enemy_Lizalfos_Gold",
+            "Enemy_Lizalfos_Gold_R"
         };
 
         public static List<string> LizalfosReplaceWithList = new List<string>()
         {
-            "Enemy_Lizalfos_Bone_Junior",
             "Enemy_Lizalfos_Electric",
             "Enemy_Lizalfos_Fire",
             "Enemy_Lizalfos_Ice",
-            "Enemy_Lizalfos_Junior",
             "Enemy_Lizalfos_Middle",
             "Enemy_Lizalfos_Senior",
             "Enemy_Lizalfos_Dark",
+            "Enemy_Lizalfos_Gold",
+            "Enemy_Lizalfos_Gold_R"
         };
 
         public static List<string> BokoblinReplaceFromList = new List<string>()
@@ -1544,19 +1647,22 @@
             "Enemy_Bokoblin_Senior",
             "Enemy_Bokoblin_Sniper_Junior",
             "Enemy_Bokoblin_Dark",
+            "Enemy_Bokoblin_Gold",
+            "Enemy_Bokoblin_Gold_R",
+            "Enemy_Bokoblin_Armor_Gold"
         };
 
         public static List<string> BokoblinReplaceWithList = new List<string>()
         {
-            "Enemy_Bokoblin_Junior",
             "Enemy_Bokoblin_Middle",
             "Enemy_Bokoblin_Dark",
             "Enemy_Bokoblin_Senior",
-            "Enemy_Bokoblin_Armor_Junior",
             "Enemy_Bokoblin_Armor_Middle",
             "Enemy_Bokoblin_Armor_Senior",
             "Enemy_Bokoblin_Armor_Dark",
-            "Enemy_Bokoblin_Bone_Junior_AllDay",
+            "Enemy_Bokoblin_Gold",
+            "Enemy_Bokoblin_Gold_R",
+            "Enemy_Bokoblin_Armor_Gold"
         };
 
         public static List<string> ChuchuReplaceFromList = new List<string>()
@@ -1620,6 +1726,7 @@
         public static List<string> LittleFroxList = new List<string>()
         {
             "Enemy_Mogurudo_Baby_Junior",
+            "Enemy_Mogurudo_Baby_Gold"
         };
 
         public static List<string> OctarokList = new List<string>()
@@ -1634,6 +1741,9 @@
         public static List<string> TreeList = new List<string>()
         {
             "Enemy_Treant_Broadleaf",
+            "Enemy_Treant_E",
+            "Enemy_Treant_D",
+            "Enemy_Treant_Bee"
         };
 
         public static List<string> ZombieReplaceFromList = new List<string>()
@@ -1658,6 +1768,7 @@
             "Enemy_Drake_Fire",
             "Enemy_Drake_Ice",
             "Enemy_Drake_Mix",
+            "Enemy_Drake_Lord",
         };
 
         public static List<string> HinoxReplaceFromList = new List<string>()
@@ -1668,6 +1779,7 @@
             "Enemy_Giant_Junior_KeyCrystal",
             "Enemy_Giant_Middle",
             "Enemy_Giant_Senior",
+            "Enemy_Giant_Gold"
         };
 
         public static List<string> HinoxReplaceWithList = new List<string>()
@@ -1676,6 +1788,7 @@
             "Enemy_Giant_Junior",
             "Enemy_Giant_Middle",
             "Enemy_Giant_Senior",
+            "Enemy_Giant_Gold"
         };
 
         public static List<string> TalusReplaceFromList = new List<string>()
@@ -1690,6 +1803,7 @@
             "Enemy_Golem_Junior_KeyCrystal",
             "Enemy_Golem_Middle",
             "Enemy_Golem_Senior",
+            "Enemy_Golem_Gold"
         };
 
         public static List<string> TalusReplaceWithList = new List<string>()
@@ -1700,14 +1814,37 @@
             "Enemy_Golem_Junior",
             "Enemy_Golem_Middle",
             "Enemy_Golem_Senior",
+            "Enemy_Golem_Gold"
         };
 
-        public static List<string> LynelList = new List<string>()
+        public static List<string> LynelReplaceFromList = new List<string>()
         {
             "Enemy_Lynel_Dark",
             "Enemy_Lynel_Junior",
             "Enemy_Lynel_Middle",
             "Enemy_Lynel_Senior",
+            "Enemy_Lynel_Boss_Gold",
+            "Enemy_Lynel_Gold",
+            "Enemy_Lynel_Gold_R",
+            "Enemy_Lynel_Boss_Dark",
+            "Enemy_Lynel_Boss_Junior",
+            "Enemy_Lynel_Boss_Middle",
+            "Enemy_Lynel_Boss_Senior",
+        };
+
+        public static List<string> LynelReplaceWithList = new List<string>()
+        {
+            "Enemy_Lynel_Dark",
+            "Enemy_Lynel_Junior",
+            "Enemy_Lynel_Middle",
+            "Enemy_Lynel_Senior",
+            "Enemy_Lynel_Boss_Gold",
+            "Enemy_Lynel_Gold",
+            "Enemy_Lynel_Gold_R",
+            "Enemy_Lynel_Boss_Dark",
+            "Enemy_Lynel_Boss_Junior",
+            "Enemy_Lynel_Boss_Middle",
+            "Enemy_Lynel_Boss_Senior",
         };
 
         public static List<string> FroxList = new List<string>()
@@ -1715,6 +1852,7 @@
             "Enemy_Mogurudo_Junior",
             "Enemy_Mogurudo_Middle",
             "Enemy_Mogurudo_Senior",
+            "Enemy_Mogurudo_Gold"
         };
 
         public static List<string> FluxReplaceFromList = new List<string>()
@@ -1723,6 +1861,7 @@
             "Enemy_Zonau_BlockMaster_Junior_Beginning",
             "Enemy_Zonau_BlockMaster_Middle",
             "Enemy_Zonau_BlockMaster_Senior",
+            "Enemy_Zonau_BlockMaster_Gold",
         };
 
         public static List<string> FluxReplaceWithList = new List<string>()
@@ -1730,6 +1869,7 @@
             "Enemy_Zonau_BlockMaster_Junior",
             "Enemy_Zonau_BlockMaster_Middle",
             "Enemy_Zonau_BlockMaster_Senior",
+            "Enemy_Zonau_BlockMaster_Gold",
         };
 
         public static List<string> WizzrobeList = new List<string>()
@@ -1746,7 +1886,6 @@
         {
             "Enemy_Toby_Junior",
             "Enemy_Toby_Junior_Sky",
-            "Enemy_Toby_Junior_Terminal",
         };
 
         public static List<string> AerocudaReplaceWithList = new List<string>()
@@ -1780,7 +1919,7 @@
         };
 
         public static List<List<string>> BasicEnemyList = new List<List<string>>() { ZombieReplaceWithList, TreeList, LittleFroxList, LikeLikeReplaceWithList, BokoblinReplaceWithList, LizalfosReplaceWithList, MoblinReplaceWithList, HoriblinReplaceWithList, PebblitList, ZonaiReplaceWithList, ChuchuReplaceWithList };
-        public static List<List<string>> BossEnemyList = new List<List<string>>() { BokoblinBossReplaceWithList, GleeokList, HinoxReplaceWithList, TalusReplaceWithList, LynelList, FroxList, FluxReplaceWithList };
+        public static List<List<string>> BossEnemyList = new List<List<string>>() { BokoblinBossReplaceWithList, GleeokList, HinoxReplaceWithList, TalusReplaceWithList, LynelReplaceWithList, FroxList, FluxReplaceWithList };
         public static List<List<string>> FlyingEnemyList = new List<List<string>>() { WizzrobeList, AerocudaReplaceWithList, KeeseReplaceWithList };
         public static List<List<string>> OctarokEnemyList = new List<List<string>>() { OctarokList };
 
@@ -1802,7 +1941,7 @@
             { GleeokList, BossEnemyList },
             { HinoxReplaceFromList, BossEnemyList },
             { TalusReplaceFromList, BossEnemyList },
-            { LynelList, BossEnemyList },
+            { LynelReplaceFromList, BossEnemyList },
             { FroxList, BossEnemyList },
             { FluxReplaceFromList, BossEnemyList },
             { WizzrobeList, FlyingEnemyList },
@@ -1818,6 +1957,7 @@
             BigAnimalLifeList,
             MushroomList,
             FruitList,
+            PlantList
         };
     }
 }
